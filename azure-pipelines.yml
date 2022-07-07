@@ -1,4 +1,7 @@
 # Starter pipeline
+- task: MSCRMPing@12
+  inputs:
+    crmConnectionString: '<add name="ewbccicdtest1"    connectionString="   AuthType=ClientSecret;   url=https://ewbccicdtest1.crm.dynamics.com;   ClientId={72a569b6-7c38-4848-86b3-27d2dfa62b09};   ClientSecret={b~b7Q~xQmqcS9XWcjSd_1WtWnbakmR.waplUA}"   />'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
